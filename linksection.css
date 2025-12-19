@@ -1,0 +1,175 @@
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .container  {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+           
+        }
+
+        .container  h3 {
+            font-size: 22px;
+            /* margin-bottom: 20px; */
+            color: #000;
+           
+        }
+
+        .container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container ul li {
+            margin-bottom: 18px;
+        }
+
+        .container  li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+        }
+
+        .container ul li a::before {
+            content: "➜";
+            color: blue;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .container ul li a:hover {
+            color: blue;
+            padding-left: 5px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+        /*syllabus section start  */
+      .syl{
+     max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px
+}
+.syl h3{
+       font-size: 22px;
+            /* margin-bottom: 20px; */
+            color: #000;
+           
+}
+.syl ul{
+     list-style: none;
+            padding: 0;
+            margin: 0;
+}
+.syl ul li {
+            margin-bottom: 18px;
+        }
+
+        .syl  li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+        }
+
+        .syl ul li a::before {
+            content: "➜";
+            color: blue;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .syl ul li a:hover {
+            color: blue;
+            padding-left: 5px;
+        }
+        /* syllabus section end  */
+        /* pyq section starts  */
+
+
+        .prev{
+     max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px
+}
+.prev h3{
+       font-size: 22px;
+           
+            color: #000;
+           
+}
+.prev ul{
+     list-style: none;
+            padding: 0;
+            margin: 0;
+}
+.prev ul li {
+            margin-bottom: 18px;
+        }
+
+        .prev  li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+        }
+
+        .prev ul li a::before {
+            content: "➜";
+            color: blue;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .prev ul li a:hover {
+            color: blue;
+            padding-left: 5px;
+        }
+       
+        
+
+
+
+
+/* ===== DROPDOWN FIX ===== */
+.question{
+    display: none;
+    margin-left: 28px;
+    background: rgb(9, 211, 238);
+     border-radius: 10px;
+     list-style: none;
+  width: 120px;
+    
+}
+
+/* open dropdown on click */
+.prev li:hover> .question{
+    display: block;
+}
+
+ /* pyq section starts  */

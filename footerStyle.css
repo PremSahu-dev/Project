@@ -1,0 +1,42 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .footer-box {
+            text-align: center;
+            padding: 20px 10px;
+            line-height: 1.6;
+            background: rgba(128, 128, 128, 0.123);
+        }
+        .title {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .title span {
+            color: rgb(0, 255, 21);
+        }
+
+        .copyright {
+            font-size: 18px;
+            color: #000080;
+            margin: 5px 0;
+        }
+
+        .developer {
+            font-size: 18px;
+            color: #000080;
+        }
+
+        .developer a {
+            color: rgb(0, 255, 21);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .developer a:hover {
+            text-decoration: underline;
+        }

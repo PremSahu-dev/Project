@@ -1,0 +1,306 @@
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #0c6bca;
+            padding:  0px 120px;
+            color: white;
+            height: 100px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00ffcc;
+        }
+        .logo sub{
+            color: red;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 35px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .nav-links a:hover {
+            color: #00ffcc;
+            text-decoration: underline;
+        }
+
+
+        /* HAMBURGER */
+        .menu-btn {
+            display: none;
+            font-size: 26px;
+            cursor: pointer;
+        }
+/* navbar ends  */
+        /* DRAWER */
+        .drawer {
+            position: fixed;
+            top: 0;
+            right: -280px;
+            width: 260px;
+            height: 100%;
+            background-color: #1f2933;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        .drawer a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+        }
+
+        .drawer a:hover {
+            color: #00ffcc;
+        }
+
+        .close-btn {
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+            margin-bottom: 20px;
+            display: block;
+            text-align: right;
+        }
+/* drawer ends  */
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .nav-links
+             {
+                display: none;
+            }
+
+            .menu-btn {
+                display: block;
+            }
+        }
+        /* pyq links  */
+        .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 2px 7px;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+/* first dropdown  */
+    .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: #03b8f0;
+    min-width: 170px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    
+}
+.pyq:hover .dropdown {
+    display: block;
+}
+.study:hover .dropdown {
+    display: block;
+}
+.notes{
+     display: none;
+    position: absolute;
+    top: 10px;
+    right: 100%;
+    background: #03fc56d3;
+    min-width: 95px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.study li:hover .notes{
+    display: block;
+}
+.notes li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.notes  li a {
+    padding: 10px;
+    color: #fff;
+}
+
+.notes li a {
+    padding: 10px;
+    color: #fff;
+}
+
+.dropdown li a:hover {
+    background: #08c0e083;
+}
+/* first dropdown ends  */
+/* under the first dropdown */
+.dropdown1{
+     display: none;
+    position: absolute;
+    top: 10px;
+    left: 100% ;
+    background: #04f140;
+    min-width: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    
+} 
+
+.dropdown1 li a {
+    padding: 10px;
+    color: #fff;
+   
+}
+.dropdown1 li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.dropdown li:hover .dropdown1 {
+    display: block;
+}
+
+/* first drawer ends  */
+ 
+ .dropdown2{
+     display: none;
+    position: absolute;
+    top: 20px;
+        left: 100%;
+    background: #0408f1d3;
+    min-width: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.dropdown li:hover .dropdown2 {
+    display: block;
+}
+.dropdown2 li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.dropdown2 li a {
+    padding: 10px;
+    color: #fff;
+} 
+/* dre2 ends */
+/*  */
+.dropdown3{
+     display: none;
+    position: absolute;
+    top: 30px;
+        left: 100%;
+    background: #04d5f1d3;
+    min-width: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.dropdown li:hover .dropdown3 {
+    display: block;
+}
+.dropdown3 li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.dropdown3  li a {
+    padding: 10px;
+    color: #fff;
+} 
+/*  */
+.dropdown4{
+     display: none;
+    position: absolute;
+   top: 40px;
+    left: 100%;
+    background: #05fd43;
+    min-width: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.dropdown li:hover .dropdown4 {
+    display: block;
+} 
+.dropdown4 li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.dropdown4 li a {
+    padding: 10px;
+    color: #fff;
+} 
+ /*  */
+.dropdown5{
+     display: none;
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    background: #0804f1;
+    min-width: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.dropdown li:hover .dropdown5 {
+    display: block;
+} 
+.dropdown5 li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.dropdown5 li a {
+    padding: 10px;
+    color: #fff;
+} 
+ .dropdown6{
+     display: none;
+    position: absolute;
+    top: 60px;
+    left: 100%;
+    background: #e708c2;
+    min-width: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.dropdown li:hover .dropdown6 {
+    display: block;
+} 
+.dropdown6 li a:hover {
+    background: rgba(0, 0, 0, 0.37);
+}
+.dropdown6 li a {
+    padding: 10px;
+    color: #fff;
+} 

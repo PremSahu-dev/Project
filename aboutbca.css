@@ -1,0 +1,52 @@
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .about-bca {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about-bca img {
+            width: 320px;
+            max-width: 100%;
+        }
+
+        .about-content {
+            max-width: 600px;
+        }
+
+        .about-content h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: #0a0a3c;
+        }
+
+        .about-content h2 span {
+            color: red;
+        }
+
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #0a0a3c;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .about-bca {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-content h2 {
+                font-size: 32px;
+            }
+        }
