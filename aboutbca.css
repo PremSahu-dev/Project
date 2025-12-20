@@ -4,14 +4,17 @@
             background-color: #ffffff;
         }
  .video-bca{
-width: 100%;
-height:100% ;
+  width: 50%;
   max-width: 550px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   display: block;
   margin: 20px auto;
+
+
+ 
+
  }
         .about-bca {
             display: flex;
