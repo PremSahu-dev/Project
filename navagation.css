@@ -35,8 +35,8 @@
         }
 
         .nav-links a:hover {
-            color: #00ffcc;
-            text-decoration: underline;
+            color: red;
+            text-decoration: none;
         }
 
 
@@ -52,7 +52,7 @@
             position: fixed;
             top: 0;
             right: -280px;
-            width: 260px;
+            width: 230px;
             height: 100%;
             background-color: #1f2933;
             padding: 20px;
@@ -68,7 +68,7 @@
         }
 
         .drawer a:hover {
-            color: #00ffcc;
+            color: red;
         }
 
         .close-btn {
@@ -80,6 +80,7 @@
             text-align: right;
         }
 /* drawer ends  */
+
         /* RESPONSIVE */
         @media (max-width: 680px) {
             .nav-links
@@ -132,7 +133,7 @@
 .notes{
      display: none;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 100%;
     background: #03fc56d3;
     min-width: 95px;
