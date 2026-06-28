@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Study Materials</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 35px;
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.semester-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.semester-link {
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.35s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Different colors for each semester */
+
+.semester-link:nth-child(1) {
+    background: linear-gradient(135deg, #ff6b6b, #ff4757);
+}
+
+.semester-link:nth-child(2) {
+    background: linear-gradient(135deg, #4facfe, #00c6fb);
+}
+
+.semester-link:nth-child(3) {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+.semester-link:nth-child(4) {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    color: #222;
+}
+
+.semester-link:nth-child(5) {
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    color: #222;
+}
+
+.semester-link:nth-child(6) {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.semester-link:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.45);
+}
+
+.semester-link:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .semester-link {
+        font-size: 16px;
+        padding: 16px;
+    }
+}
+
+      
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Semester Study Material</h1>
+
+    <div class="semester-grid">
+        <a href="study_material/sem1_study.html" class="semester-link" >Semester 1</a>
+        <a href="study_material/sem2_study.html" class="semester-link" >Semester 2</a>
+        <a href="study_material/sem3_study.html" class="semester-link" >Semester 3</a>
+        <a href="study_material/sem4_study.html" class="semester-link" >Semester 4</a>
+        <a href="study_material/sem5_study.html" class="semester-link" >Semester 5</a>
+        <a href="study_material/sem6_study.html" class="semester-link" >Semester 6</a>
+    </div>
+</div>
+
+
+</body>
+</html>
