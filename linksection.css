@@ -65,7 +65,7 @@
         .Pyq_container a{
             display:inline-block;
             text-decoration:none;
-            background:#00c853;
+            background:blue;
             color:white;
             padding:12px 30px;
             border-radius:30px;
@@ -74,7 +74,7 @@
         }
 
         .Pyq_container a:hover{
-            background:#00a844;
+           background:#f31414;
         }
 
         /* study materials  */
@@ -97,7 +97,7 @@
         .study_Container a{
             display:inline-block;
             text-decoration:none;
-            background:#00c853;
+            background:blue;
             color:white;
             padding:12px 30px;
             border-radius:30px;
@@ -106,5 +106,5 @@
         }
 
         .study_Container a:hover{
-            background:#00a844;
+            background:#f31414;
         }
